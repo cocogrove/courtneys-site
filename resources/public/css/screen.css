@@ -1,0 +1,147 @@
+body {
+    color: #555;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.navbar {
+    border: 1px solid #A9A9A9;
+    border-left: none;
+    border-right: none;
+}
+
+.hmimg {
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.title a {
+    font-weight: 100;
+    color: black;
+}
+
+.social-container {
+    float: right;
+    margin-top: 6px;
+}
+
+.social-media {
+    text-align: left;
+    display: inline;
+    margin: 0;
+    list-style: none;
+}
+
+.social-media .social-media-list {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: -4px;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 15px 13px;
+    background: #fff;
+    font-weight: 100;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-media .social-media-list:hover {
+    background: #555;
+    color: #fff;
+}
+
+.social-media .social-media-list .social-items {
+    padding: 0;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    width: 85px;
+    list-style: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.social-media .social-media-list .social-items .social-item a {
+    background: #555;
+    display: block;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px 10px 10px 10px;
+}
+
+.social-item {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.social-media .social-media-list .social-items .social-item:hover a {
+    background: #666;
+}
+
+.social-media .social-media-list:hover .social-items {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    color: #fff;
+}
+
+.social-item:hover {
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    margin-left: -36px;
+    margin-top: 9px;
+}
+
+.center {
+    text-align: center;
+}
+
+.directory {
+    list-style: none;
+    display: inline-flex;
+}
+
+.directory a {
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+}
+
+.directory-item {
+    padding-right: 15px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2;
+}
