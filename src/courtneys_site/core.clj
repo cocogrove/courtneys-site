@@ -24,3 +24,7 @@
   (-> (routes home-routes app-routes)
       (handler/site)
       (wrap-base-url)))
+
+(defn -main [& [port]]
+  (let [port (Integer. (or port (env :port) 5000))]
+        (jetty/run-jetty #'app {:port port :join? false})))

@@ -1,6 +1,6 @@
 (defproject courtneys-site "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :url "http://www.courtneygrove.com"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [compojure "1.5.1"]
@@ -15,7 +15,8 @@
   :ring {:handler courtneys-site.core/app
          :init    courtneys-site.core/init
          :destory courtneys-site.core/destory}
-  :hooks [envrion.leiningen.hooks]
+ ;; :hooks [envrion.leiningen.hooks]
+  :main courtneys-site.core
   :profiles
   {:uberjar {:aot :all}
    :ring    {:open-browser? false,
