@@ -10,6 +10,9 @@
      [:ul.social-media
       [:li.social-media-list "Connect"
        [:ul.social-items
+        [:li#linkedin.social-item
+         [:a.media {:target "_blank"
+                    :href "https://www.linkedin.com/in/cocogrove"} "Linkedin"]]
         [:li#twitter.social-item
          [:a.media {:target "_blank"
                     :href "https://twitter.com/courtney__grove"} "Twitter"]]]]]]
