@@ -5,8 +5,6 @@
    [:div.navbar
     [:div.left
      [:ul.directory
-      [:li.directory-item [:a {:href "/something"} "Something"]]
-      [:li.directory-item [:a {:href "/me"} "About me"]]
       [:li.directory-item [:a {:href "/blog"} "Blog"]]]]
     [:div.social-container
      [:ul.social-media

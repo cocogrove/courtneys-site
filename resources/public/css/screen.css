@@ -145,3 +145,8 @@ h1 {
     text-align: center;
     letter-spacing: 2;
 }
+
+.bot {
+    height: 430px; 
+    width: 350px;
+}
